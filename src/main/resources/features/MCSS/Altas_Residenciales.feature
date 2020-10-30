@@ -6,9 +6,6 @@ Feature: Altas_Residenciales
     When INGRESAMOS USUARIO A MCSS"<caso_prueba>"
     And INGRESAMOS CONTRASEÑA A MCSS"<caso_prueba>"
     Then INGRESO CORRECTO A LA PAGINA
-
-
-
     Examples:
       | caso_prueba |
       |           1 |

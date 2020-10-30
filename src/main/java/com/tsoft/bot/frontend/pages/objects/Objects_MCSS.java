@@ -12,13 +12,13 @@ public class Objects_MCSS {
     public static By TXT_PASSWORD = By.id("dlPass");
     public static By TXT_SCORE = By.xpath("//*[@id=\"j_idt70_content\"]/div/div[1]");
     // public static By TXT_IMEI = By.id("ownDeviceImei");
-    public static final Pattern TXT_IMEI = new Pattern("C:\\Users\\Dalma.Saldarriaga\\Desktop\\SCRIPT INTELIJ\\PROYECTO_MCSS\\web-automation-framework_Telefonica\\src\\main\\resources\\img_Sikuli\\IMEI.PNG");
+    //public static final Pattern TXT_IMEI = new Pattern("C:\\Users\\Dalma.Saldarriaga\\Desktop\\SCRIPT INTELIJ\\PROYECTO_MCSS\\web-automation-framework_Telefonica\\src\\main\\resources\\img_Sikuli\\IMEI.PNG");
     public static By TXT_ERROR_WIC = By.xpath("//*[@id=\"messages\"]/div/ul/li/span[2]");
     public static By BTN_INGRESAR = By.id("loginDealerButton");
     public static By BTN_COMBO_POSTPAGO = By.id("comboPost");
     public static By BTN_COMBO_PREPAGO = By.id("comboPre");
     public static By BTN_SIGUIENTE = By.id("//*[@id=\"customerIdentificationForm\"]/div[6]/input");
-    public static final Pattern BTN_SGT = new Pattern("C:\\Users\\Dalma.Saldarriaga\\Desktop\\SCRIPT INTELIJ\\PROYECTO_MCSS\\web-automation-framework\\src\\main\\resources\\img_Sikuli\\SIGUIENTE.PNG");
+    //public static final Pattern BTN_SGT = new Pattern("C:\\Users\\Dalma.Saldarriaga\\Desktop\\SCRIPT INTELIJ\\PROYECTO_MCSS\\web-automation-framework\\src\\main\\resources\\img_Sikuli\\SIGUIENTE.PNG");
 
     public static By BTN_CONFIGURACION = By.id("details-button");
     public static By BTN_PORTABILIDAD = By.id("j_idt29");

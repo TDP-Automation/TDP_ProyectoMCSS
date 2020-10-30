@@ -19,7 +19,7 @@ pipeline {
        stage('Versioning') {
          steps {
             // Get some code from a GitHub repository
-            git 'https://github.com/TDP-Automation/TDP_ProyectoMCSS.git'
+            git 'https://github.com/TDP-Automation/TDP_MCSS.git'
             }
         }
               stage('Update DATA') {
@@ -28,7 +28,7 @@ pipeline {
 
                           }
                     }
-        /* stage('Run Static Analysis with SonarQ') {
+         /*stage('Run Static Analysis with SonarQ') {
                     steps {
                     script{
                         withSonarQubeEnv('sonarserver') {
@@ -45,11 +45,12 @@ pipeline {
 
                     }
               }*/
-       /* stage('Clean the Script') {
+
+        stage('Clean the Script') {
             steps {
             bat 'mvn clean'
             }
-      }*/
+      }
 
         stage('Running the Test') {
             steps {
@@ -68,10 +69,17 @@ pipeline {
                   }
             }
       stage('Archive Results HTML') {
-            steps {
-		    archiveArtifacts 'target/resultado/frontend-reporte.html'
-            }
+                         steps {
+             		    archiveArtifacts 'target/resultado/frontend-reporte.html'
+                         }
       }
+      stage('Archive Results EXCEL') {​​​​​
+                  steps {​​​​​
+                archiveArtifacts 'src/main/resources/excel/*.*'
+                  }​​​​​
+            }​​​​​
+
+
       stage('Cleaning WS') {
             steps {
             dir('target') {

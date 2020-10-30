@@ -123,7 +123,7 @@ public class Altas_Residenciales {
                     throw new IllegalStateException("Unexpected value: " + TIPO_SERVICIOs);
             }
             Screen screen = new Screen();
-            screen.wait(ObjectsMCSS.BTN_SGT);
+            //screen.wait(ObjectsMCSS.BTN_SGT);
             ExtentReportUtil.INSTANCE.stepPass(driver, "Combo "+TIPO_SERVICIOs);
             generateWord.sendText("Combo "+TIPO_SERVICIOs);
             generateWord.addImageToWord(driver);

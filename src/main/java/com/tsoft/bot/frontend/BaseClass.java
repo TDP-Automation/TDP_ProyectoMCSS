@@ -1,14 +1,17 @@
 package com.tsoft.bot.frontend;
 
+
+import com.tigervnc.rfb.Screen;
 import com.tsoft.bot.frontend.exceptions.FrontEndException;
 import com.tsoft.bot.frontend.utility.ExtentReportUtil;
 import com.tsoft.bot.frontend.utility.GenerateWord;
 import com.tsoft.bot.frontend.utility.Sleeper;
-import javafx.stage.Screen;
+
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import java.util.Arrays;
 

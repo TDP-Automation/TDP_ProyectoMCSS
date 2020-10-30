@@ -66,7 +66,6 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>1.2.5</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -149,6 +148,16 @@
 		</dependency>
 	</dependencies>
 	<build>
+
+			<pluginManagement>
+				<plugins>
+					<plugin>
+						<artifactId>maven-resources-plugin</artifactId>
+						<version>2.6</version>
+					</plugin>
+				</plugins>
+			</pluginManagement>
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

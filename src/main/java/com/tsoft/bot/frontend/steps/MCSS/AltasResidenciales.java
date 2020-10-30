@@ -3,8 +3,8 @@ package com.tsoft.bot.frontend.steps.MCSS;
 import com.tsoft.bot.frontend.helpers.Hook;
 import com.tsoft.bot.frontend.pages.pages.Altas_Residenciales;
 import cucumber.api.PendingException;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +28,7 @@ public class AltasResidenciales {
 
     @And("^INGRESAMOS CONTRASEÑA A MCSS\"([^\"]*)\"$")
     public void ingresamosCONTRASEÑAAMCSS(String casoDePrueba) throws Throwable {
-       Altas.IngresamosContraseña(casoDePrueba);
+        Altas.IngresamosContraseña(casoDePrueba);
     }
 
     @Then("^INGRESO CORRECTO A LA PAGINA$")
