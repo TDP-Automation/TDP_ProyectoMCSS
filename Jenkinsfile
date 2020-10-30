@@ -45,11 +45,11 @@ pipeline {
 
                     }
               }*/
-        stage('Clean the Script') {
+       /* stage('Clean the Script') {
             steps {
             bat 'mvn clean'
             }
-      }
+      }*/
 
         stage('Running the Test') {
             steps {
