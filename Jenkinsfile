@@ -51,7 +51,6 @@ pipeline {
             bat 'mvn clean'
             }
       }
-
         stage('Running the Test') {
             steps {
             bat "${params.TEST_TAG}"
